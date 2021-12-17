@@ -6,13 +6,16 @@ public class Ex2 {
         //reminder is multiplied with 10^base and added
         int t = n;
         int sum = 0;
-        int count=0;
+        // int count=0;
+        int pow = 1;    //10^0 = 1;
         while(t>0){
             
             int r = t%b;
             t/=b;
-            sum = sum+r*((int)Math.pow(10,count));
-            count++;
+            sum+=r*pow;
+            pow*=10;
+            // sum = sum+r*((int)Math.pow(10,count));
+            // count++;
         }
         return sum;
     }
