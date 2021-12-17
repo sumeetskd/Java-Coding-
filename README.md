@@ -1,2 +1,2 @@
 # Java-Coding-
-A repository for coding problems and solutions
+A solution repository for coding problems.
