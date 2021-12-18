@@ -1,0 +1,30 @@
+eg:
+add two octals: 346+777
+
+     346
+    +777
+    -----
+            6+7=13 => 13
+            13 can't be represented in octal. So, we have to convert it in ocatal form
+            => 8*1+5 = 13
+            unit  = 5 and carry = 1
+     1
+    346
+   +777
+    ----
+      5
+            now add: 4 + 7 + 1 = 12
+            Coverting: 12 to octal => 8*1 + 4
+            remainder = 4 = will occupy the 10th place 
+            carry = 1
+     1
+     346
+    +777 
+    -----
+      45
+            Add: 1+3+7 = 11
+            Coverting 11 to octal = 8*1+3 => carry = 1, remainder  = 3 = 100th place
+    346
+    777
+    ---
+    1345
