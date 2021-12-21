@@ -46,7 +46,7 @@ public class Ex7 {
     public static int Multiply(int n1, int n2, int b){
         int res = 0;
         //muliply the digits of n1 to digits of n2, then add those results
-        int c = 0;
+
         int pow = 1;
         while(n2>0){
             // int r1 = n1%10;

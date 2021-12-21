@@ -1,5 +1,4 @@
 package PrepCoding;
-import java.util.*;
 
 class Ex1{
     public static void main(String args[]){

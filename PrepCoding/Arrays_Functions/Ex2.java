@@ -1,6 +1,6 @@
 package PrepCoding.Arrays_Functions;
 import java.util.*;
-import java.lang.Math;
+
 public class Ex2 {
     public static int DecimalToBase(int n, int b){
         //reminder is multiplied with 10^base and added

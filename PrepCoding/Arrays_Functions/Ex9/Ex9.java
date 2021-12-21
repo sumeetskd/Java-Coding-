@@ -16,6 +16,7 @@ public class Ex9 {
         for(int i = 0; i<n; i++){
             if(arr[i]==s){
                 System.out.println(s+" is present at position "+(i+1)+".");
+                sc.close();
                 return;
             }
         }
