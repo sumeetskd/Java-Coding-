@@ -23,5 +23,6 @@ public class Ex1 {
 
         int res = calcDigit(n1,n2);
         System.out.println("Frequency of "+n2+" is "+res);
+        sc.close();
     }
 }

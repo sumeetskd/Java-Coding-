@@ -31,5 +31,6 @@ public class Ex8 {
             arr[i] = sc.nextInt();
         }
         calculateMaxMin(arr);
+        sc.close();
     }
 }

@@ -44,5 +44,6 @@ public class Ex6 {
         int b = sc.nextInt();
         int res = subtraction(n1, n2, b);
         System.out.println("Result is : "+res);
+        sc.close();
     }    
 }

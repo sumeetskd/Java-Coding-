@@ -26,5 +26,6 @@ public class Ex3 {
         int n2 = sc.nextInt();
         int r = DecimalEqui(n1, n2);
         System.out.println("The decimal equivalent of the number is: "+r);
+        sc.close();
     }
 }

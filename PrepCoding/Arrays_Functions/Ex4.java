@@ -37,5 +37,6 @@ public class Ex4 {
         int b2 = sc.nextInt();
         int res = anyBaseCovert(n, b1, b2);
         System.out.println("Result is "+res);
+        sc.close();
     }
 }

@@ -29,5 +29,6 @@ public class Ex2 {
         int b = Integer.parseInt(sc.nextLine());
         int res = DecimalToBase(n, b);
         System.out.println("The Result is "+res);
+        sc.close();
     }
 }

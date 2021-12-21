@@ -34,5 +34,6 @@ public class Ex5 {
         int b = sc.nextInt();
         int res = addition(n1, n2, b);
         System.out.println("Result is : "+res);
+        sc.close();
     }    
 }

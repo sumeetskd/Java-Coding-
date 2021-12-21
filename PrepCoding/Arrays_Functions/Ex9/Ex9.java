@@ -20,6 +20,6 @@ public class Ex9 {
             }
         }
         System.out.println(s+" is not present in the array.");
-
+        sc.close();
     }
 }

@@ -18,5 +18,6 @@ public class Ex10 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
