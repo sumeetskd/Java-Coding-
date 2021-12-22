@@ -56,5 +56,6 @@ public class Ex11 {
         for(int i = 0; i<add.length; i++){
             System.out.println(add[i]);
         }
+        sc.close();
     }
 }
