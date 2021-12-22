@@ -23,39 +23,78 @@ public class Ex11 {
         }
 
         System.out.println("Addition:");
-        int max_size = n1<n2?n2:n1;
-        int add[] = new int[max_size];
+        
+        int k = n1>=n2?n1:n2;
+        int add[] = new int[k];
+        int c = 0;
+        int d = 0;
         if(n1==n2){
-            for(int i = 0; i<n2; i++){
-                add[i] = arr2[i]+arr1[i];
+            
+            for(int i = n1-1; i>=0; i--){
+                d = arr1[i]+arr2[i]+c;
+                if(d>10&&i==0){
+                    add[i] = d%10;
+                    c = d/10;
+                    System.out.println(c);
+                    continue;
+                }
+                c = d/10;
+                
+                add[i] = d%10;
+                
             }
         }
         else if(n1>n2){
-            int j = n2-1;
-            for(int i = n1-1; i>=0; i--){
-                if(i>n1-n2-1){
-                    add[i] = arr1[i]+arr2[j];
-                    j--;
-                    continue;
-                }
-                add[i] = arr1[i];
-            }
-            
-        }else{
-            int j = 0;
-            for(int i = 0; i<n2; i++){
-                if(i>n2-n1-1){
-                    add[i] = arr1[j]+arr2[i];
-                    j++;
-                    continue;
-                }
 
-                add[i] = arr2[i];
+            int j = n2-1;
+            for(int i = k-1; i>=0; i--){
+                if(j>=0){
+                    d = arr1[i]+arr2[j]+c;
+                    c = d/10;
+                    j--;
+                    add[i] = d%10;
+                    continue;
+                }
+                d = arr1[i]+c;
+                if(d>=10&&i==0){
+                    add[i] = d%10;
+                    c = d/10;
+                    System.out.println(c);
+                    continue;
+                }
+                add[i] = d%10;
+
             }
         }
-        for(int i = 0; i<add.length; i++){
+        else{
+
+            int j = n1-1;
+            for(int i = k-1; i>=0; i--){
+                if(j>=0){
+                    d = arr1[j]+arr2[i]+c;
+                    c = d/10;
+                    j--;
+                    add[i] = d%10;
+                    continue;
+                }
+                d = arr2[i]+c;
+                if(d>=10&&i==0){
+                    add[i] = d%10;
+                    c = d/10;
+                    System.out.println(c);
+                    continue;
+                }
+                add[i] = d%10;
+            }
+        }
+        // if(c>=1){
+            
+        // }
+        for(int i = 0; i<k; i++){
             System.out.println(add[i]);
         }
+
+
         sc.close();
     }
 }
