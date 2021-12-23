@@ -44,10 +44,12 @@ public class Ex12 {
             i--;
         }
         System.out.println("Subtraction:");
+        int t = 0;
         for(int i1 = 0; i1<sub.length; i1++){
-            if(i1==0&&sub[i1]<=0){
-                // System.out.println(sub[i1]);
+            if(t==0&&sub[i1]==0){
                 continue;
+            }else{
+                t = 1;
             }
             System.out.println(sub[i1]);
         }
