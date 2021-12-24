@@ -36,7 +36,6 @@ public class Ex12 {
                     d = d-arr1[i];
                     c = 0;
                 }
-                // System.out.println(d);
             }
             sub[k] = d;
             k--;

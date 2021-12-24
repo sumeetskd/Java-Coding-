@@ -2,24 +2,37 @@ package PrepCoding.Arrays_Functions.Ex14;
 import java.util.*;
 
 public class Ex14 {
-    public static void Rotate(int arr[], int k){
+    public static void Reverse(int arr[], int m, int r){
         
+        int j = r-1;
+        while(m<j){
+            int t = arr[m];
+            arr[m] = arr[j];
+            arr[j] = t;
+            j--;
+            m++;
+        }
+    }
+    public static void Rotate(int arr[], int k){
+
         int r = k%arr.length;
-        // System.out.println("Mod: "+r);
+        
         if(r<0){
             r = arr.length+r;
-            
         }
-        while(r>0){
-            int d = arr[arr.length-1];
-            int pv = 0;
-            for(int i = 0; i<arr.length; i++){
-                pv = arr[i];
-                arr[i] = d;
-                d = pv;
-            }
-            r--;
-        }
+        Reverse(arr,0,arr.length-r);
+        Reverse(arr,arr.length-r,arr.length);
+        Reverse(arr,0,arr.length);
+        // while(r>0){
+        //     int d = arr[arr.length-1];
+        //     int pv = 0;
+        //     for(int i = 0; i<arr.length; i++){
+        //         pv = arr[i];
+        //         arr[i] = d;
+        //         d = pv;
+        //     }
+        //     r--;
+        // }
     }
     public static void Display(int arr[]){
         System.out.println("Rotated array:");

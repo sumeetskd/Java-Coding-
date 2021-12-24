@@ -7,14 +7,6 @@ public class Ex13 {
     public static void Reverse(int arr[]){
         int j = arr.length-1;
         int i = 0;
-        // int m = arr.length/2;
-        // while(i<=m && j>=m){
-        //     int t = arr[j];
-        //     arr[j] = arr[i];
-        //     arr[i] = t;
-        //     i++;
-        //     j--;
-        // }
         while(i<j){
             int t = arr[i];
             arr[i] = arr[j];

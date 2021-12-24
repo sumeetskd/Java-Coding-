@@ -12,3 +12,8 @@ while(r>0){
 1 2 3 4 5
 k = -2
 3 4 5 1 2 =>
+
+
+alternative method:-
+reverse part 1, reverse part 2
+reverse the whole
