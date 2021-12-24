@@ -1,0 +1,14 @@
+while(r>0){
+    int d = arr[arr.length-1];
+    int pv = 0;
+    for(int i = 0; i<arr.length; i++){
+        pv = arr[i];
+        arr[i] = d;
+        d = pv;
+    }
+    r--;
+}
+
+1 2 3 4 5
+k = -2
+3 4 5 1 2 =>
