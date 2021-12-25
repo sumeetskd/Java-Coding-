@@ -14,9 +14,7 @@ public class Ex16 {
         System.out.println("SubArrays:");
         // Integer to String: Integer.toString(i)
         for(int i = 0; i<n; i++){
-            
             for(int j = i; j<n; j++){
-                
                 for(int k = i; k<=j; k++){
                     System.out.print(arr[k]+"\t");
                 }
@@ -24,5 +22,6 @@ public class Ex16 {
             }
            
         }
+        sc.close();
     }
 }
