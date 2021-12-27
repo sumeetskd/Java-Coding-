@@ -19,11 +19,13 @@ public class Ex18 {
             int m = l + (r - l) / 2;
             if(a[m]==k){
                 return m;
-            }else if(k>a[m]){
-                return BinarySearch(a,m+1,r,k);
-            }else if(k<a[m]){
-                return BinarySearch(a,l,m-1,k);
             }
+            if(k>a[m]){
+                return BinarySearch(a,m+1,r,k);
+            }
+            
+            return BinarySearch(a,l,m-1,k);
+            
         }
         
         return -1;
