@@ -1,4 +1,4 @@
-package PrepCoding.Arrays_Functions;
+package PrepCoding.Arrays_Functions.Ex2;
 import java.util.*;
 
 public class Ex2 {

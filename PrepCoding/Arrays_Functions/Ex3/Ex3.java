@@ -1,4 +1,4 @@
-package PrepCoding.Arrays_Functions;
+package PrepCoding.Arrays_Functions.Ex3;
 import java.util.*;
 
 //Converting number of any given base into decimal

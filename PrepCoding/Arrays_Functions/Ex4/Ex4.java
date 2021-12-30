@@ -1,4 +1,4 @@
-package PrepCoding.Arrays_Functions;
+package PrepCoding.Arrays_Functions.Ex4;
 import java.util.*;
 
 //any base to any base
