@@ -1,0 +1,9 @@
+corner case:
+j = 0 and i <=m1-1
+    print (i[0-m1][0]);
+i==m1-1 
+    print (j[0-n1-1])
+j==n1-1
+    print (i[n1-1-0]);
+i==n1-1
+    print (j[])
