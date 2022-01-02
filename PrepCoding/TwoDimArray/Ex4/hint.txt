@@ -1,0 +1,13 @@
+count=0
+exit case: 
+	if(arr[i][j]==0&&boundary value acc. to cases)
+		
+
+4 cases: 
+
+first: 1 -> move in rows i++
+second: 1 -> move in j --
+third: 1 => move in rows: i--
+fourth: 1 -> move in column j++
+
+	repeat
