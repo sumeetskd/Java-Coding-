@@ -4,11 +4,11 @@ import java.util.*;
 public class Ex6 {
     public static void rotation(int arr[][], int s){
         int s_index = s-1;
-        int t = 0;
+        // int t = 0;
         int tc = 0;
         int lc = 0;
         int bc = 0;
-        int rc = 0;
+        // int rc = 0;
         
         //top rotation
         for(int j = s_index,i = s_index; j<arr[0].length-s_index-1; j++){

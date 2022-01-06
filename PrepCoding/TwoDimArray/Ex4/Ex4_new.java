@@ -16,13 +16,13 @@ public class Ex4_new {
             }
         }
         int count = 0;
-        int min_i = 0;
-        int min_j = 0;
+        // int min_i = 0;
+        // int min_j = 0;
         int i = 0;
         int j = 0;
-        int row = 0;
-        int col = 0;
-        boolean b = true;
+        // int row = 0;
+        // int col = 0;
+        // boolean b = true;
         while(true){
             count = (count+arr1[i][j])%4;
             if(count==0){

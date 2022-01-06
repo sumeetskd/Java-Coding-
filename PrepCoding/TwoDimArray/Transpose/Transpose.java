@@ -42,5 +42,6 @@ public class Transpose {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
