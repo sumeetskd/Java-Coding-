@@ -51,6 +51,7 @@ public class Ex4_new {
             }
         }
         System.out.println("Exit:"+(i)+", "+(j));
+        sc.close();
     }
 }
 

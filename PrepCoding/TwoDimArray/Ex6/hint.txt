@@ -1,0 +1,1 @@
+Store the 2d array in 1d array, perform rotation on 1d array.
