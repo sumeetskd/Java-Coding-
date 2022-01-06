@@ -1,4 +1,4 @@
-package PrepCoding.TwoDimArray;
+package PrepCoding.TwoDimArray.Ex1;
 
 import java.util.Scanner;
 

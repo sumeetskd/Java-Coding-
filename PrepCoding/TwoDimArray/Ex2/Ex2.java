@@ -1,4 +1,4 @@
-package PrepCoding.TwoDimArray;
+package PrepCoding.TwoDimArray.Ex2;
 import java.util.*;
 
 public class Ex2 {
