@@ -6,8 +6,8 @@ public class ArrayReverse {
         if(idx<0){
             return;
         }
-        displayArr(arr,idx-1);
         System.out.println(arr[idx]);
+        displayArr(arr, idx-1);
     }
 
     public static void main(String args[]){
@@ -21,7 +21,7 @@ public class ArrayReverse {
         for(int i = 0; i<n; i++){
             arr[i] = sc.nextInt();
         }
-        System.out.println("Array Elements:");
+        System.out.println("Reverse of Array Elements:");
         displayArr(arr, n-1);
         sc.close();
     }
