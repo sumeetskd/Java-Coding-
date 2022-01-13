@@ -6,11 +6,16 @@ public class FirstIndexOccurence {
         if(arr.length==idx){
             return -1;
         }
-        int f = FindOccur(arr, idx+1, e);
+        // int f = FindOccur(arr, idx+1, e);
+        // if(e==arr[idx]){
+        //     return idx;
+        // }else{
+        //     return f;
+        // }
         if(e==arr[idx]){
             return idx;
         }else{
-            return f;
+            return FindOccur(arr, idx+1, e);
         }
     }
     public static void main(String args[]){
