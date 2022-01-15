@@ -3,14 +3,20 @@ import java.util.*;
 
 public class ListIndexOccurence {
     public static int FindOccur(int arr[], int idx, int e){
-        if(arr.length==idx){
+        if(idx==arr.length){
             return -1;
         }
-        if(arr[idx]==e){
-            int k = FindOccur(arr,idx,e);
+        int k = FindOccur(arr, idx+1, e);
+        if(k==-1){
+            if(arr[idx]==e){
+                return idx;
+            }else{
+                return -1;
+            }
+        }else{
+            return k;
         }
-        int k = FindOccur(arr,idx,e);
-        if(k==)
+
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
